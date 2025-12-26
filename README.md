@@ -2,6 +2,7 @@
 Analyzing AWS EC2 pricing models and their evolution with real-world workloads
 
 Table of Contents
+	
 	1.	Introduction
 	
 	2.	Objective
