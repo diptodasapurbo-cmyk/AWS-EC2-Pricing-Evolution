@@ -30,14 +30,21 @@ This project explores how pricing choices evolve with real-world workload requir
 ⸻
 
 Objective
+	
 	•	Understand the true cost and flexibility of different EC2 pricing models.
+	
 	•	Highlight common misconceptions (e.g., Spot Instances are unreliable, RIs are always cheapest).
+	
 	•	Create a clear decision framework for selecting EC2 pricing options.
 
 ⸻
 
 Background
+	
 	1.	On-Demand – No commitment, pay per hour, flexible but more expensive.
+	
 	2.	Reserved Instances (RI) – Commit to 1-3 years, lower cost, less flexible.
+	
 	3.	Savings Plans – Flexible commitment, discounts based on usage, can change instance types.
+	
 	4.	Spot Instances – Cheapest option, can be interrupted, suitable for background jobs.
