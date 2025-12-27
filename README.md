@@ -29,7 +29,7 @@
 ---
 
 ## 3. Evolution
-**Why this is called “Evolution” (and not just comparison):**  
+**Why I called AWS Pricing “Evolution” ( not comparison):**  
 
 1. “Which is cheaper?” ❌  
 2. “What discount do I get?” ❌  
