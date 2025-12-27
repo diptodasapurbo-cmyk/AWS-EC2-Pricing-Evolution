@@ -9,6 +9,23 @@ Analyzing AWS EC2 pricing models and their evolution with real-world workloads
 5. [Screenshots](#screenshots)
 6. [Conclusion](#conclusion)
 
+## Objectives
+Your text here…
+
+## Overview
+Your text here…
+
+## Trade-offs / Key Learnings
+Your text here…
+
+## Scenario / Example
+Your text here…
+
+## Screenshots
+![Screenshot description](link-to-image)
+
+## Conclusion
+Your text here…
 
 ⸻
 
