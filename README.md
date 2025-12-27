@@ -59,7 +59,7 @@ This narrative demonstrates the progression from simple cost-based decisions to 
 ![On-Demand Instance](screenshots/EC2-Launch.png)
 ![On-Demand Instance](screenshots/on-demand.png) 
 ![On-Demand Instance](screenshots/on-demand2.png) 
-![On-Demand Instance](screenshots/Terminated on demand EC2 Instance.png) 
+![On-Demand Instance](screenshots/Terminated-on-demand-EC2-Instance.png) 
 [AWS On-Demand Documentation](https://aws.amazon.com/ec2/pricing/on-demand/)
 
 ### Savings Plan
