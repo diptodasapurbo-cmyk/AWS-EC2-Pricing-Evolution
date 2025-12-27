@@ -56,34 +56,43 @@ This narrative demonstrates the progression from simple cost-based decisions to 
 **Scenario:** A steady web application running 24/7 for a year.
 
 ### On-Demand
+
 Launching EC2 Instance
 ![On-Demand Instance](screenshots/EC2-Launch.png)
- summary
+
+EC2 on demand Instance summary
 ![On-Demand Instance](screenshots/on-demand.png) 
+
 EC2 on demand Instance details
 ![On-Demand Instance](screenshots/on-demand2.png) 
+
 EC2 on demand Instance lifecycle details
 ![On-Demand Instance](screenshots/Terminated-on-demand-EC2-Instance.png) 
 
 [AWS On-Demand Documentation](https://aws.amazon.com/ec2/pricing/on-demand/)
 
 ### Savings Plan
+
 Savings Plan Overview
 ![Savings Plan Overview](screenshots/Saving-plan.png) 
+
 Savings Plan Overview on Billing Page
 ![Savings Plan Overview](screenshots/Saving-plan-overview.png) 
+
 Currently hold no saving Plan
 ![Savings Plan Overview](screenshots/No-active-saving-plan.png)
 
 [AWS Savings Plan Documentation](https://aws.amazon.com/ec2/savings-plans/)
 
 ### Reserved Instances
+
 Reserved Instances Overview
 ![Reserved Instances Overview](screenshots/Reserved-Instance-overview.png)  
 
 [AWS Reserved Instances Documentation](https://aws.amazon.com/ec2/pricing/reserved-instances/)
 
 ### Spot Instances
+
 Currently hold no spot intance
 ![Spot Request](screenshots/Currently-dont-have-any-spot-instances.png) 
 
@@ -94,13 +103,14 @@ Currently hold no spot intance
 ---
 
 ## 6. Conclusion
+
 - Pricing decisions evolve from simple cost comparison to a deeper understanding of trade-offs and workload requirements.  
 - Real-world workloads benefit from combining multiple pricing models:  
   - On-Demand for temporary needs  
   - Savings Plan for predictable steady workloads  
   - Reserved Instances for guaranteed long-term usage  
   - Spot for background jobs or flexible tasks  
-- Understanding trade-offs is more important than memorizing absolute costs.
+- "In AWS, the trade-off is between upfront commitment and architectural flexibility; the only guarantee of lower cost is your willingness to sacrifice On-Demand agility for long-term savings."
 
 ---
 
