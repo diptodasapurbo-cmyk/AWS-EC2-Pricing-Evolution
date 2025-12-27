@@ -1,23 +1,14 @@
 # AWS-EC2-Pricing-Evolution
 Analyzing AWS EC2 pricing models and their evolution with real-world workloads
 
-Table of Contents
-	
-	1.	Introduction
-	
-	2.	Objective
-	
-	3.	Background
-	
-	4.	Trade-Offs & Guarantees
-	
-	5.	Scenario Example
-	
-	6.	Screenshots
-	
-	7.	Key Takeaways
-	
-	8.	Conclusion
+## Table of Contents
+1. [Objectives](#objectives)
+2. [Overview](#overview)
+3. [Trade-offs / Key Learnings](#trade-offs--key-learnings)
+4. [Scenario / Example](#scenario--example)
+5. [Screenshots](#screenshots)
+6. [Conclusion](#conclusion)
+
 
 ⸻
 
