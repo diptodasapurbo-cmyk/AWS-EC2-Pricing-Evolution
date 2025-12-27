@@ -56,11 +56,16 @@ This narrative demonstrates the progression from simple cost-based decisions to 
 **Scenario:** A steady web application running 24/7 for a year.
 
 ### On-Demand
-![On-Demand Instance](screenshots/on-demand.png)  
+![On-Demand Instance](screenshots/EC2 Launch.png) 
+![On-Demand Instance](screenshots/on-demand.png) 
+![On-Demand Instance](screenshots/on-demand2.png) 
+![On-Demand Instance](screenshots/Terminated on demand EC2 Instance.png) 
 [AWS On-Demand Documentation](https://aws.amazon.com/ec2/pricing/on-demand/)
 
 ### Savings Plan
 ![Savings Plan Overview](screenshots/savings-plan.png)  
+![Savings Plan Overview](screenshots/savings-plan2.png) 
+![Savings Plan Overview](screenshots/savings-plan3.png)
 [AWS Savings Plan Documentation](https://aws.amazon.com/ec2/savings-plans/)
 
 ### Reserved Instances
