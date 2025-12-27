@@ -1,4 +1,4 @@
- # EC2 Pricing Evolution
+ # AWS EC2 Pricing Evolution
 ## How AWS Pricing Models Reflect Real-World Workloads
 
 ---
