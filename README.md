@@ -64,7 +64,7 @@ EC2 on demand Instance summary
 ![On-Demand Instance](screenshots/on-demand.png) 
 
 EC2 on demand Instance details
-![On-Demand Instance](screenshots/on-demand2.png) 
+![On-Demand Instance](screenshots/pricing-details-on-demand.png) 
 
 EC2 on demand Instance lifecycle details
 ![On-Demand Instance](screenshots/on-demand3.png)
