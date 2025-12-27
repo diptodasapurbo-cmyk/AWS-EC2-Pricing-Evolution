@@ -73,7 +73,7 @@ This narrative demonstrates the progression from simple cost-based decisions to 
 [AWS Reserved Instances Documentation](https://aws.amazon.com/ec2/pricing/reserved-instances/)
 
 ### Spot Instances
-![Spot Request](screenshots/spot-request.png)  
+![Spot Request](screenshots/Currently-dont-have-any-spot-instances.png)  
 [AWS Spot Instances Documentation](https://aws.amazon.com/ec2/spot/)
 
 > These screenshots visualize the evolution of EC2 pricing decisions, helping viewers quickly understand cost, reliability, and flexibility without reading the full text.
@@ -96,7 +96,7 @@ This narrative demonstrates the progression from simple cost-based decisions to 
 - [AWS Savings Plans](https://aws.amazon.com/ec2/savings-plans/)  
 - [AWS Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/)  
 - [AWS Spot Instances](https://aws.amazon.com/ec2/spot/)  
-- AWS Console Screenshots (placed in `screenshots/` folder)
+
 
 ---
  
