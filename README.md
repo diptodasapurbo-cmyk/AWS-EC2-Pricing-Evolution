@@ -96,7 +96,7 @@ Reserved Instances Overview
 
 ### Spot Instances
 
-Currently hold no spot intance
+Currently hold no Spot Instances
 ![Spot Request](screenshots/Currently-dont-have-any-spot-instances.png) 
 
 [AWS Spot Instances Documentation](https://aws.amazon.com/ec2/spot/)
