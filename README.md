@@ -67,6 +67,9 @@ EC2 on demand Instance details
 ![On-Demand Instance](screenshots/on-demand2.png) 
 
 EC2 on demand Instance lifecycle details
+![On-Demand Instance](screenshots/on-demand3.png)
+
+Terminated EC2 Intance 
 ![On-Demand Instance](screenshots/Terminated-on-demand-EC2-Instance.png) 
 
 [AWS On-Demand Documentation](https://aws.amazon.com/ec2/pricing/on-demand/)
