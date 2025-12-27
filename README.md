@@ -56,7 +56,7 @@ This narrative demonstrates the progression from simple cost-based decisions to 
 **Scenario:** A steady web application running 24/7 for a year.
 
 ### On-Demand
-![On-Demand Instance](screenshots/EC2 Launch.png)
+![On-Demand Instance](screenshots/EC2-Launch.png)
 ![On-Demand Instance](screenshots/on-demand.png) 
 ![On-Demand Instance](screenshots/on-demand2.png) 
 ![On-Demand Instance](screenshots/Terminated on demand EC2 Instance.png) 
