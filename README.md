@@ -1,58 +1,97 @@
-# AWS-EC2-Pricing-Evolution
-Analyzing AWS EC2 pricing models and their evolution with real-world workloads
+ # EC2 Pricing Evolution
+## How AWS Pricing Models Reflect Real-World Workloads
+
+---
 
 ## Table of Contents
-1. [Objectives](#objectives)
-2. [Overview](#overview)
-3. [Trade-offs / Key Learnings](#trade-offs--key-learnings)
-4. [Scenario / Example](#scenario--example)
-5. [Screenshots](#screenshots)
-6. [Conclusion](#conclusion)
+1. [Objectives](#1-objectives)
+2. [Three Key Pillars](#2-three-key-pillars)
+3. [Evolution](#3-evolution)
+4. [Trade-Offs & Guarantees](#4-trade-offs--guarantees)
+5. [Scenario & Screenshots](#5-scenario--screenshots)
+6. [Conclusion](#6-conclusion)
+7. [References](#7-references)
 
-## Objectives
-Your text here…
+---
 
-## Overview
-Your text here…
+## 1. Objectives
+- Understand the differences between On-Demand, Savings Plan, Reserved Instances, and Spot Instances.
+- Explore trade-offs related to cost, reliability, flexibility, and commitment.
+- Demonstrate a real-world approach to designing workloads with EC2 pricing models.
 
-## Trade-offs / Key Learnings
-Your text here…
+---
 
-## Scenario / Example
-Your text here…
+## 2. Three Key Pillars
+- **Commitment vs. Flexibility:** How your choice affects your long-term and short-term cost.  
+- **Reliability Conception:** How design affects the perceived and actual reliability of instances.  
+- **Time Horizon on Workloads:** How workload duration impacts which pricing model is optimal.
 
-## Screenshots
-![Screenshot description](link-to-image)
+---
 
-## Conclusion
-Your text here…
+## 3. Evolution
+**Why this is called “Evolution” (and not just comparison):**  
 
-⸻
+1. “Which is cheaper?” ❌  
+2. “What discount do I get?” ❌  
+3. “What am I committing to, for how long, and under what risk?” ✅  
 
-Introduction
+This narrative demonstrates the progression from simple cost-based decisions to reasoned workload-aware planning.
 
-AWS EC2 offers multiple pricing models: On-Demand, Reserved Instances (RI), Savings Plans, and Spot Instances.
-Many beginners focus only on “cheapest option” without understanding commitment, reliability, and risk.
-This project explores how pricing choices evolve with real-world workload requirements.
+---
 
-⸻
+## 4. Trade-Offs & Guarantees
+| Pricing Model       | Cost      | Reliability | Flexibility | Commitment |
+|--------------------|----------|------------|------------|------------|
+| On-Demand           | High     | High       | Full       | None       |
+| Savings Plan        | Lower    | High       | Medium     | 1-3 years  |
+| Reserved Instances  | Lower    | High       | Low        | 1-3 years  |
+| Spot Instances      | Lowest   | Variable   | High       | None       |
 
-Objective
-	
-	•	Understand the true cost and flexibility of different EC2 pricing models.
-	
-	•	Highlight common misconceptions (e.g., Spot Instances are unreliable, RIs are always cheapest).
-	
-	•	Create a clear decision framework for selecting EC2 pricing options.
+> ![Trade-Offs Table](screenshots/tradeoff-table.png)  
+> Screenshot illustrating EC2 pricing trade-offs and guarantees for each model.
 
-⸻
+---
 
-Background
-	
-	1.	On-Demand – No commitment, pay per hour, flexible but more expensive.
-	
-	2.	Reserved Instances (RI) – Commit to 1-3 years, lower cost, less flexible.
-	
-	3.	Savings Plans – Flexible commitment, discounts based on usage, can change instance types.
-	
-	4.	Spot Instances – Cheapest option, can be interrupted, suitable for background jobs.
+## 5. Scenario & Screenshots
+**Scenario:** A steady web application running 24/7 for a year.
+
+### On-Demand
+![On-Demand Instance](screenshots/on-demand.png)  
+[AWS On-Demand Documentation](https://aws.amazon.com/ec2/pricing/on-demand/)
+
+### Savings Plan
+![Savings Plan Overview](screenshots/savings-plan.png)  
+[AWS Savings Plan Documentation](https://aws.amazon.com/ec2/savings-plans/)
+
+### Reserved Instances
+![Reserved Instances Overview](screenshots/reserved-instances.png)  
+[AWS Reserved Instances Documentation](https://aws.amazon.com/ec2/pricing/reserved-instances/)
+
+### Spot Instances
+![Spot Request](screenshots/spot-request.png)  
+[AWS Spot Instances Documentation](https://aws.amazon.com/ec2/spot/)
+
+> These screenshots visualize the evolution of EC2 pricing decisions, helping viewers quickly understand cost, reliability, and flexibility without reading the full text.
+
+---
+
+## 6. Conclusion
+- Pricing decisions evolve from simple cost comparison to a deeper understanding of trade-offs and workload requirements.  
+- Real-world workloads benefit from combining multiple pricing models:  
+  - On-Demand for temporary needs  
+  - Savings Plan for predictable steady workloads  
+  - Reserved Instances for guaranteed long-term usage  
+  - Spot for background jobs or flexible tasks  
+- Understanding trade-offs is more important than memorizing absolute costs.
+
+---
+
+## 7. References
+- [AWS EC2 Pricing Overview](https://aws.amazon.com/ec2/pricing/)  
+- [AWS Savings Plans](https://aws.amazon.com/ec2/savings-plans/)  
+- [AWS Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/)  
+- [AWS Spot Instances](https://aws.amazon.com/ec2/spot/)  
+- AWS Console Screenshots (placed in `screenshots/` folder)
+
+---
+ 
