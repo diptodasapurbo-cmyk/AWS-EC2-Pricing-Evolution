@@ -63,13 +63,13 @@ This narrative demonstrates the progression from simple cost-based decisions to 
 [AWS On-Demand Documentation](https://aws.amazon.com/ec2/pricing/on-demand/)
 
 ### Savings Plan
-![Savings Plan Overview](screenshots/savings-plan.png)  
-![Savings Plan Overview](screenshots/savings-plan2.png) 
-![Savings Plan Overview](screenshots/savings-plan3.png)
+![Savings Plan Overview](screenshots/Saving-plan.png)  
+![Savings Plan Overview](screenshots/Saving-plan-overview.png) 
+![Savings Plan Overview](screenshots/No-active-saving-plan.png)
 [AWS Savings Plan Documentation](https://aws.amazon.com/ec2/savings-plans/)
 
 ### Reserved Instances
-![Reserved Instances Overview](screenshots/reserved-instances.png)  
+![Reserved Instances Overview](screenshots/Reserved-Instance-overview.png)  
 [AWS Reserved Instances Documentation](https://aws.amazon.com/ec2/pricing/reserved-instances/)
 
 ### Spot Instances
